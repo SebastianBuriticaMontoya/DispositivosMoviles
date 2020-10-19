@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">misDeudores</string>
+    <string name="hola_mundo">hola mundo!</string>
+    <string name="registro">Registro</string>
+    <string name="nombre">Nombre</string>
+    <string name="email">E-mail</string>
+    <string name="phone">Número de telefono</string>
+    <string name="contraseña">Contraseña</string>
+    <string name="nueva_contraseña">Repetir contraseña</string>
+    <string name="registrar">Registrar</string>
+    <string name="respuesta">Nombre: %s \nEmail: %s \nTelefono: %s \nGenero: %s \nPasatiempo: %s \nciudad de nacimiento: %s</string>
+    <string name="masculino">Masculino</string>
+    <string name="femenino">Femenino</string>
+    <string name="genero">Genero</string>
+    <string name="pasatiempo">Pasatiempos</string>
+    <string name="nadar">Nadar</string>
+    <string name="futbol">Fútbol</string>
+    <string name="videojuegos">Video juegos</string>
+    <string name="lugar_de_nacimiento">Lugar de nacimiento</string>
+
+    <string-array name="ciudad_nacimiento">
+        <item>Seleccione la ciudad de nacimiento</item>
+        <item>Medellin</item>
+        <item>Bogotá</item>
+        <item>Cali</item>
+        <item>Barranquilla</item>
+        <item>Bucaramanga</item>
+    </string-array>
+</resources>

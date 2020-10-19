@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_inicio">
+
+    <fragment
+        android:id="@+id/nav_inicio"
+        android:name="com.sebastianb.proyecto_final.ui.home.InicioFragment"
+        android:label="@string/inicio"
+        tools:layout="@layout/fragment_inicio" />
+
+    <fragment
+        android:id="@+id/nav_buscar"
+        android:name="com.sebastianb.proyecto_final.ui.gallery.BuscarFragment"
+        android:label="@string/buscar"
+        tools:layout="@layout/fragment_buscar" />
+
+    <fragment
+        android:id="@+id/nav_perfil"
+        android:name="com.sebastianb.proyecto_final.ui.slideshow.PerfilFragment"
+        android:label="@string/perfil"
+        tools:layout="@layout/fragment_perfil" />
+    <fragment
+        android:id="@+id/nav_proveedores"
+        android:name="com.sebastianb.proyecto_final.ui.ProveedorFragment"
+        android:label="@string/proveedores"
+        tools:layout="@layout/fragment_proveedor" />
+    <fragment
+        android:id="@+id/nav_ayuda"
+        android:name="com.sebastianb.proyecto_final.ui.AyudaFragment"
+        android:label="@string/ayuda"
+        tools:layout="@layout/fragment_ayuda" />
+    <fragment
+        android:id="@+id/nav_tyc"
+        android:name="com.sebastianb.proyecto_final.ui.TerminosycondicionesFragment"
+        android:label="@string/terminosycondiciones"
+        tools:layout="@layout/fragment_terminosycondiciones" />
+    <fragment
+        android:id="@+id/nav_historial"
+        android:name="com.sebastianb.proyecto_final.ui.HistorialFragment"
+        android:label="@string/historial"
+        tools:layout="@layout/fragment_historial" />
+</navigation>

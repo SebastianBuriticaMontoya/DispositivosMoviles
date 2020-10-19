@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_inicio"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:title="@string/inicio" />
+        <item
+            android:id="@+id/nav_buscar"
+            android:icon="@drawable/ic_baseline_search_24"
+            android:title="@string/buscar" />
+        <item
+            android:id="@+id/nav_proveedores"
+            android:icon="@drawable/ic_baseline_map_24"
+            android:title="@string/proveedores" />
+        <item
+            android:id="@+id/nav_perfil"
+            android:icon="@drawable/ic_baseline_account_circle_24"
+            android:title="@string/perfil" />
+        <item
+            android:id="@+id/nav_historial"
+            android:icon="@drawable/ic_baseline_history_24"
+            android:title="@string/historial" />
+    </group>
+
+    <item android:title="">
+        <menu>
+            <item
+                android:id="@+id/nav_ayuda"
+                android:icon="@drawable/ic_baseline_help_24"
+                android:title="@string/ayuda" />
+            <item
+                android:id="@+id/nav_tyc"
+                android:icon="@drawable/ic_baseline_book_24"
+                android:title="@string/terminosycondiciones" />
+        </menu>
+    </item>
+</menu>
